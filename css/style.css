@@ -1,0 +1,217 @@
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.PC img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.SP img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.patents_video{
+    position: relative;
+}
+.patents_video_1{
+    position: absolute;
+    width: 37.5%;
+    top: 18%;
+    right: 13%;
+}
+.patents_video_2{
+    position: absolute;
+    width: 37.5%;
+    bottom: 2%;
+    left: 12%;
+}
+.SP_patents_video{
+    position: relative;
+}
+.SP_patents_video_1{
+    position: absolute;
+    width: 48%;
+    top: 26%;
+    right: 2%;
+}
+.SP_patents_video_2{
+    position: absolute;
+    width: 48%;
+    bottom: 5%;
+    left: 2%;
+}
+
+.points_video{
+    position: relative;
+}
+
+.points_video_1{
+    position: absolute;
+    width: 32%;
+    top: 9%;
+    right: 18%;
+}
+
+.points_video_2{
+    position: absolute;
+    width: 32%;
+    top: 36%;
+    right: 18%;
+}
+
+.points_video_3{
+    position: absolute;
+    width: 32%;
+    bottom: 12%;
+    right: 18%;
+}
+
+.SP_points_video{
+    position: relative;
+}
+
+.SP_points_video_1{
+    position: absolute;
+    width: 65%;
+    top: 6.5%;
+    right: 17.5%;
+}
+
+.SP_points_video_2{
+    position: absolute;
+    width: 65%;
+    top: 34.8%;
+    right: 17.5%;
+}
+
+.SP_points_video_3{
+    position: absolute;
+    width: 65%;
+    bottom: 13.9%;
+    right: 17.5%;
+}
+.offerbox{
+    position: relative;
+}
+.offerbtn{
+    position: absolute;
+    bottom:9%;
+    left:37.5%;
+}
+.SP_offerbox{
+    position: relative;
+}
+.SP_offerbtn{
+    position: absolute;
+    bottom:5%;
+    left:25%;
+}
+
+.PC .nana2 {
+    position: relative;
+}
+
+.PC .nana_btn {
+    position: absolute;
+    bottom: 1.5%;
+    right: 20%;
+    width: 60%;
+}
+
+.PC .nana_btn:hover {
+    opacity: 0.8;
+}
+
+.sns_btn {
+    text-align: center;
+}
+
+.sns_btn ul li {
+    display: inline-block;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.buybtn {
+    width: 174px;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    z-index: 99;
+}
+
+.buybtn img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .buybtn {
+        width: 28%;
+        max-width: 170px;
+    }
+}
+
+.modal_img_style {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .modal_img_style {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .media-body {
+        height: 21vh;
+        overflow: auto;
+    }
+    .modal {
+        top: 60px;
+    }
+}
+img.SP_anniversary_2 {
+    width:90%;
+    position: fixed;
+    top: 5%;
+    right:5%;
+    z-index: 100;
+}
+@media screen and (max-width: 414px){
+    img.SP_anniversary_2 {
+       top: 10%;
+    }
+}
+
+img.SP_anniversary_2 {
+    width:101%;
+    position: fixed;
+    top: 5%;
+    right:-1%;
+    z-index: 100;
+}
+@media screen and (max-width: 414px){
+    img.SP_anniversary_2 {
+       top: 10%;
+    }
+}
+
+.SP {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .PC {
+        display: none;
+    }
+    .SP {
+        display: block;
+    }
+}
