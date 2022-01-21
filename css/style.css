@@ -1,217 +1,194 @@
-.main {
-    width: 100%;
-    margin: 0 auto;
+body{
+    margin:0px;
 }
-
-.PC img {
+.fv {
     width: 100%;
+    
+}
+.fv img {
+    width: 640px;
+    margin: 0 auto;
     display: block;
-    margin: 0 auto;
+}
+.fv .mainview{
+    width: 840px;
 }
 
-.SP img {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
+@media screen and (max-width: 768px){
+    .fv img {
+        width: 100%;
+    }
+    .fv .mainview{
+        width: 100%;
+    }
 }
 
-.patents_video{
-    position: relative;
-}
-.patents_video_1{
-    position: absolute;
-    width: 37.5%;
-    top: 18%;
-    right: 13%;
-}
-.patents_video_2{
-    position: absolute;
-    width: 37.5%;
-    bottom: 2%;
-    left: 12%;
-}
-.SP_patents_video{
-    position: relative;
-}
-.SP_patents_video_1{
-    position: absolute;
-    width: 48%;
-    top: 26%;
-    right: 2%;
-}
-.SP_patents_video_2{
-    position: absolute;
-    width: 48%;
-    bottom: 5%;
-    left: 2%;
-}
-
-.points_video{
-    position: relative;
-}
-
-.points_video_1{
-    position: absolute;
-    width: 32%;
-    top: 9%;
-    right: 18%;
-}
-
-.points_video_2{
-    position: absolute;
-    width: 32%;
-    top: 36%;
-    right: 18%;
-}
-
-.points_video_3{
-    position: absolute;
-    width: 32%;
-    bottom: 12%;
-    right: 18%;
-}
-
-.SP_points_video{
-    position: relative;
-}
-
-.SP_points_video_1{
-    position: absolute;
-    width: 65%;
-    top: 6.5%;
-    right: 17.5%;
-}
-
-.SP_points_video_2{
-    position: absolute;
-    width: 65%;
-    top: 34.8%;
-    right: 17.5%;
-}
-
-.SP_points_video_3{
-    position: absolute;
-    width: 65%;
-    bottom: 13.9%;
-    right: 17.5%;
-}
-.offerbox{
-    position: relative;
-}
-.offerbtn{
-    position: absolute;
-    bottom:7%;
-    left:35%;
-}
 .SP_offerbox{
     position: relative;
+    width:640px;
+    display: block;
+    margin:0 auto;
 }
 .SP_offerbtn{
+    width:40%;
     position: absolute;
     bottom:6%;
     left:15%;
 }
-
-.PC .nana2 {
-    position: relative;
+@media screen and (max-width: 768px){
+    .SP_offerbox{
+        width: 100%;
+    }
 }
 
-.PC .nana_btn {
+.video_box{
+    width:640px;
+    margin:0 auto;
+    position:relative
+}
+@media screen and (max-width: 768px){
+    .video_box {
+        width: 100%;
+    }
+}
+.video01{
     position: absolute;
-    bottom: 1.5%;
-    right: 20%;
-    width: 60%;
+    width: 86%;
+    top: 26%;
+    right: 7%;
+}
+.video02{
+    position: absolute;
+    width: 82%;
+    top: 53%;
+    right: 9%;
+}
+.video03{
+    position: absolute;
+    width: 82%;
+    top: 30%;
+    right: 9%;
+}
+.video04{
+    position: absolute;
+    width: 82%;
+    top: 31%;
+    right: 9%;
 }
 
-.PC .nana_btn:hover {
-    opacity: 0.8;
-}
-
-.sns_btn {
-    text-align: center;
-}
-
-.sns_btn ul li {
-    display: inline-block;
-    margin: 0 8px;
-    cursor: pointer;
-}
-
-.buybtn {
+ .sns_btn {
+     text-align: center;
+ }
+ .sns_btn ul li{
+     display: inline-block;
+     margin: 0 8px;
+     cursor: pointer;
+ }
+ 
+ .buybtn{
     width: 174px;
     position: fixed;
     right: 0;
-    bottom: 20px;
+    bottom: 76px;
     z-index: 99;
 }
-
-.buybtn img {
-    width: 100%;
-    height: auto;
-}
-
-@media screen and (max-width: 768px) {
-    .buybtn {
+.buybtn img{width: 100%; height: auto;}
+@media screen and (max-width: 768px){
+    .buybtn{
         width: 28%;
         max-width: 170px;
     }
 }
 
-.modal_img_style {
-    max-width: 100%;
-    height: auto;
-}
-
-@media screen and (max-width: 768px) {
-    .modal_img_style {
-        max-width: 70%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .media-body {
-        height: 21vh;
-        overflow: auto;
-    }
-    .modal {
-        top: 60px;
-    }
-}
-img.SP_anniversary_2 {
-    width:90%;
-    position: fixed;
-    top: 5%;
-    right:5%;
-    z-index: 100;
-}
-@media screen and (max-width: 414px){
-    img.SP_anniversary_2 {
-       top: 10%;
-    }
-}
-
-img.SP_anniversary_2 {
-    width:101%;
-    position: fixed;
-    top: 5%;
-    right:-1%;
-    z-index: 100;
-}
-@media screen and (max-width: 414px){
-    img.SP_anniversary_2 {
-       top: 10%;
-    }
-}
-
-.SP {
+#wh-widget-send-button{
     display: none;
 }
 
-@media screen and (max-width: 768px) {
-    .PC {
-        display: none;
+#fb-root{
+    display: none;
+}
+
+#wrapper img#line {
+    display: none;
+    position: fixed;
+    right: 15px;
+    bottom: 12px;
+    z-index: 99;
+}
+
+.line_alert {
+    display: none;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 29px;
+    right: 90px;
+    z-index: 99;
+}
+.line_alert:before{
+    content: '';
+    position: absolute;
+    background: white;
+    border-bottom: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    right: -5px;
+    top: 50%;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    z-index: 1;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.line_alert p{
+    padding: 5px 10px 5px 10px;
+    line-height: 18px;
+    max-height: 34px;
+    max-width: 135px;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+img.anniversary_2{
+    width:40%;
+    position: fixed;
+    top:-1%;
+    right:30%;
+    z-index:100;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    img.anniversary_2 {
+        width:101%;
+        position: fixed;
+        top: 5%;
+        right:-1%;
+        z-index: 100;
     }
-    .SP {
-        display: block;
+}
+
+@media screen and (max-width: 414px){
+    img.anniversary_2 {
+       top: 10%;
     }
+}
+
+.SP{
+    display: none;
+}
+@media screen and (max-width: 768px){
+.PC{
+    display: none;
+}
+.SP{
+    display: block;
+}
 }
