@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 function countDown() {
   var now = new Date();
-  var future = new Date("05/20/2020 23:59:59");
+  var future = new Date("02/19/2022 23:59:59");
   var timeLeft = future - now;
   var milli = timeLeft;
 
@@ -44,7 +44,7 @@ function countDown() {
 
   // timeLeft = spareDays  + "天" + spareHours + "時" + spareMinutes + "分" + spareSeconds + "." + spareMills;
   var mySpan = document.getElementById("countdown");
-  mySpan.innerHTML = `${spareDays}<span class="unit">天</span> ${spareHours}<span class="unit">時</span> ${spareMinutes}<span class="unit">分</span> ${spareSeconds}.${spareMills}`;
+  mySpan.innerHTML = `<span class="unit">最後倒數</span>${spareDays}<span class="unit">天</span> ${spareHours}<span class="unit">時</span> <span class="SP_br"></span>${spareMinutes}<span class="unit">分</span> ${spareSeconds}.${spareMills}`;
 
   if (milli <= 0) { //Time's run out! If all values go to zero
       mySpan.innerHTML = "00:00:00";

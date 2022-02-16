@@ -22,6 +22,36 @@ body{
         width: 100%;
     }
 }
+.countdown_box{
+    width:640px;
+    margin:0 auto;
+    position: relative;
+}
+
+#countdown{
+    position: absolute;
+    left:35%;
+    color: #ffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    bottom: 4%;
+    font-family: "微軟正黑體";
+}
+@media screen and (max-width: 768px){
+    .countdown_box{
+        width:100%;
+    }
+    #countdown{
+        left:37%;
+    }
+}
+@media screen and (max-width: 640px){
+    #countdown{
+        font-size: 1rem;
+        
+    }
+}
+
 
 .SP_offerbox{
     position: relative;
